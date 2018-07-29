@@ -1,8 +1,8 @@
 {
-  "name": "todo-api",
+  "name": "node-todo-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple node.js todo API to train with MongoDB, Express and Mocha",
+  "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "export NODE_ENV=test || SET NODE_ENV=test && mocha server/**/*.test.js",
@@ -10,6 +10,10 @@
   },
   "author": "angristan",
   "license": "MIT",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Angristan/node-todo-api.git"
+   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
